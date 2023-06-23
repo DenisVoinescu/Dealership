@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AvailableCarsSceneController">
+   <children>
+      <VBox fx:id="carContainer" layoutX="225.0" layoutY="125.0" prefHeight="470.0" prefWidth="550.0" styleClass="VBox" />
+      <AnchorPane id="anchorpaneleft2" prefHeight="701.0" prefWidth="150.0">
+         <children>
+            <ImageView fx:id="MechanicImageView" fitHeight="95.0" fitWidth="106.0" layoutX="150.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@mechanic.jpg" />
+               </image></ImageView>
+            <ImageView fitHeight="700.0" fitWidth="150.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true">
+               <image>
+                  <Image url="@road.jpg" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <AnchorPane id="anchorpaneright2" layoutX="850.0" prefHeight="693.0" prefWidth="150.0">
+         <children>
+            <ImageView fitHeight="700.0" fitWidth="150.0" pickOnBounds="true">
+               <image>
+                  <Image url="@road.jpg" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+      <Label layoutX="239.0" layoutY="74.0" text="Currently these are the cars that we have on stock:">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="732.0" layoutY="610.0" mnemonicParsing="false" onAction="#GoBackToLogInScene" text="Go back">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

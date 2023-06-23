@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LogInSceneController">
+   <children>
+      <Button layoutX="738.0" layoutY="612.0" mnemonicParsing="false" onAction="#SwitchToHomeScene" text="Log out">
+         <font>
+            <Font size="19.0" />
+         </font></Button>
+      <Button layoutX="324.0" layoutY="149.0" mnemonicParsing="false" onAction="#switchToMyCarsScene" prefHeight="34.0" prefWidth="99.0" text="My cars">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Button layoutX="517.0" layoutY="522.0" mnemonicParsing="false" onAction="#SwitchToAvailableCarsScene" text="Available cars">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <Label layoutX="196.0" layoutY="98.0" text="Click here to see your car collection!">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="408.0" layoutY="472.0" text="Click here to see other available cars!">
+         <font>
+            <Font name="System Bold Italic" size="23.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="700.0" fitWidth="150.0" layoutY="1.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true">
+         <image>
+            <Image url="@road.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="700.0" fitWidth="150.0" layoutX="850.0" layoutY="4.0" pickOnBounds="true">
+         <image>
+            <Image url="@road.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="541.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@mycars.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="224.0" layoutY="506.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@otherCars.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

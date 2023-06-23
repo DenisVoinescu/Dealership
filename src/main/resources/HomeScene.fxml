@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="anchorPaneHomeScene" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="HomeSceneController">
+   <children>
+      <Button fx:id="LogInButton" layoutX="640.0" layoutY="410.0" mnemonicParsing="false" onAction="#SwitchToLogInScene" prefHeight="42.0" prefWidth="132.0" text="Log in" />
+      <PasswordField fx:id="PasswordTextfield" layoutX="601.0" layoutY="326.0" prefHeight="48.0" prefWidth="221.0" promptText="password">
+         <font>
+            <Font size="18.0" />
+         </font></PasswordField>
+      <TextField fx:id="UsernameTextfield" layoutX="600.0" layoutY="252.0" prefHeight="42.0" prefWidth="221.0" promptText="username">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <Button fx:id="RegisterNowButton" layoutX="638.0" layoutY="585.0" mnemonicParsing="false" onAction="#SwitchToRegisterScene" prefHeight="42.0" prefWidth="146.0" text="Register now" />
+      <Label layoutX="559.0" layoutY="176.0" prefHeight="32.0" prefWidth="306.0" text="Please enter your details:">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="27.0" text="Welcome to the online dealership!">
+         <font>
+            <Font name="Century" size="52.0" />
+         </font>
+      </Label>
+      <Label layoutX="568.0" layoutY="540.0" text="You don't have an account?">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="292.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@dealership1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="92.0" layoutY="337.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@dealership2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="300.0" layoutY="481.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@dealership3.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="886.0" layoutY="611.0" mnemonicParsing="false" onAction="#exit" prefHeight="32.0" prefWidth="86.0" text="Exit" />
+   </children>
+</AnchorPane>

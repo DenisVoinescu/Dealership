@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PaymentSceneController">
+   <children>
+      <Button layoutX="400.0" layoutY="553.0" mnemonicParsing="false" onAction="#SwitchToPaymentCompletedScene" prefHeight="50.0" prefWidth="200.0" text="Complete payment">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <TextField fx:id="CardNumberTextfield" layoutX="400.0" layoutY="260.0" prefHeight="50.0" prefWidth="250.0" promptText="ex: 1234 5678 1234 5678" />
+      <TextField fx:id="CardDateTextfield" layoutX="400.0" layoutY="350.0" prefHeight="50.0" prefWidth="250.0" promptText="ex: 03/26" />
+      <TextField fx:id="CVVTextfield" layoutX="400.0" layoutY="440.0" prefHeight="50.0" prefWidth="250.0" promptText="ex: 465" />
+      <Label layoutX="266.0" layoutY="270.0" text="Card number:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="242.0" layoutY="360.0" text="Card expiry date:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="349.0" layoutY="450.0" text="CVV:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="262.0" layoutY="180.0" text="Name on card:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="CardNameTextfield" layoutX="397.0" layoutY="170.0" prefHeight="50.0" prefWidth="256.0" promptText="ex: Chris Bumstead" />
+      <Label layoutX="338.0" layoutY="66.0" text="Enter your card details:">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button layoutX="672.0" layoutY="603.0" mnemonicParsing="false" onAction="#goBack" prefHeight="45.0" prefWidth="108.0" text="Go back">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="700.0" fitWidth="150.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true">
+         <image>
+            <Image url="@road.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="700.0" fitWidth="150.0" layoutX="850.0" pickOnBounds="true">
+         <image>
+            <Image url="@road.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="anchorPaneMyCars" prefHeight="700.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MyCarsSceneController">
+   <children>
+      <Label layoutX="305.0" layoutY="56.0" text="Here is a list of the cars that you own:">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+      <Button layoutX="671.0" layoutY="610.0" mnemonicParsing="false" onAction="#goBackToLogInScene" prefHeight="42.0" prefWidth="104.0" text="Go back">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="300.0" layoutY="268.0" text="At the moment you don't own any car...">
+         <font>
+            <Font name="System Italic" size="24.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="SadImageView" fitHeight="150.0" fitWidth="200.0" layoutX="405.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true" />
+      <ListView fx:id="carListView" layoutX="193.0" layoutY="188.0" prefHeight="298.0" prefWidth="615.0" />
+      <ImageView fitHeight="700.0" fitWidth="150.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true">
+         <image>
+            <Image url="@road.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="700.0" fitWidth="150.0" layoutX="850.0" layoutY="5.0" pickOnBounds="true">
+         <image>
+            <Image url="@road.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="103.0" fitWidth="123.0" layoutX="193.0" layoutY="21.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@mechanic.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

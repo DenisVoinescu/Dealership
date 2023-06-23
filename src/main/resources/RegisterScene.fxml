@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1000.0" styleClass="RegisterAnchor" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="RegisterSceneController">
+   <children>
+      <PasswordField fx:id="RegPasswordTextfield" layoutX="350.0" layoutY="330.0" promptText="password">
+         <font>
+            <Font size="18.0" />
+         </font></PasswordField>
+      <PasswordField fx:id="RegConPasswordTextfield" layoutX="350.0" layoutY="400.0" promptText="confirm password">
+         <font>
+            <Font size="18.0" />
+         </font></PasswordField>
+      <Button layoutX="352.0" layoutY="576.0" mnemonicParsing="false" onAction="#CompleteRegistration" text="Complete registration">
+         <font>
+            <Font size="20.0" />
+         </font></Button>
+      <TextField fx:id="RegUsernameTextfield" layoutX="350.0" layoutY="190.0" promptText="username">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <TextField fx:id="RegEmailTextfield" layoutX="350.0" layoutY="260.0" promptText="e-mail">
+         <font>
+            <Font size="18.0" />
+         </font></TextField>
+      <Label layoutX="228.0" layoutY="51.0" text="Please enter your registration details below:">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="notARobbotCheck" layoutX="462.0" layoutY="498.0" mnemonicParsing="false" text="I'm not a robot" />
+      <ImageView fitHeight="58.0" fitWidth="54.0" layoutX="422.0" layoutY="118.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@user.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="700.0" fitWidth="150.0" layoutX="850.0" pickOnBounds="true">
+         <image>
+            <Image url="@road.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="700.0" fitWidth="150.0" nodeOrientation="RIGHT_TO_LEFT" pickOnBounds="true">
+         <image>
+            <Image url="@road.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="73.0" fitWidth="67.0" layoutX="379.0" layoutY="472.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@robot.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="712.0" layoutY="576.0" mnemonicParsing="false" onAction="#SwitchToHomeScene" text="Go back">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
