@@ -1,6 +1,6 @@
 # Online-Dealership
 The Online Dealership is an application in which an user can create an account, log in, buy cars and see the list of cars that they own.
-In the process of creating this application I used: Java programming language using OOP, JavaFX, JavaFX Scene Builder 2.0, MySQL, and Hibernate Framework. 
+In the process of creating this application I used: Java programming language using OOP, JavaFX, JavaFX Scene Builder 2.0, MySQL and Hibernate Framework. 
 
 
 
