@@ -64,7 +64,10 @@ Looks like it's there! Let's also see if anything changed in MySQL database.
 
 ![image](https://github.com/DenisVoinescu/Online-Dealership/assets/126812746/69e0811b-26b2-455c-81ba-07bdd0441175)
 
-Seems like a new instance of the Mercedes was created and 
+Seems like a new instance of the Mercedes was created and it belongs to the user in cause: 
+
+![image](https://github.com/DenisVoinescu/Online-Dealership/assets/126812746/20435e37-cef5-4aa7-b6d1-2afe3077e91d)
+
 
 
 
