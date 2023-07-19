@@ -2,7 +2,8 @@
 The Online Dealership is an application in which an user can create an account, log in, buy cars and see the list of cars that they own.
 
 
-![page1](https://github.com/DenisVoinescu/Online-Dealership/assets/126812746/4e54ec24-a226-4580-8cd8-0db48cf1c02d)
+![image](https://github.com/DenisVoinescu/Online-Dealership/assets/126812746/2555523e-51b7-4884-a683-cfcabec9473d)
+
 
 This is the home page. Let's create an account!
 
@@ -10,7 +11,7 @@ This is the home page. Let's create an account!
 
 Great!
 
-![registeredSuccesfully](https://github.com/DenisVoinescu/Online-Dealership/assets/126812746/44c1556f-68f2-4ccf-8894-2176a0765c69)
+![image](https://github.com/DenisVoinescu/Online-Dealership/assets/126812746/2c57c18e-8899-41c4-8d8b-b2a7b1ef0c60)
 
 The user has been inserted into MySQL database: 
 
