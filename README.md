@@ -56,6 +56,17 @@ Wow!
 
 ![image](https://github.com/DenisVoinescu/Online-Dealership/assets/126812746/e33c7578-8166-4acd-b24f-1fa9efb559de)
 
+Now let's see if my car collection list has been updated! 
+
+![image](https://github.com/DenisVoinescu/Online-Dealership/assets/126812746/2c520704-021a-42c2-b702-8dc2362fef3b)
+
+Looks like it's there! Let's also see if anything changed in MySQL database.
+
+![image](https://github.com/DenisVoinescu/Online-Dealership/assets/126812746/69e0811b-26b2-455c-81ba-07bdd0441175)
+
+Seems like a new instance of the Mercedes was created and 
+
+
 
 
 
