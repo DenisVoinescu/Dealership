@@ -7,11 +7,11 @@ The Online Dealership is an application in which an user can create an account, 
 
 This is the home page. Let's create an account!
 
-![image](https://github.com/DenisVoinescu/Online-Dealership/assets/126812746/b0029933-aaf3-4f6a-af9e-f34bdb43de69)
+![image](https://github.com/DenisVoinescu/Online-Dealership/assets/126812746/2c57c18e-8899-41c4-8d8b-b2a7b1ef0c60)
 
 Great!
 
-![image](https://github.com/DenisVoinescu/Online-Dealership/assets/126812746/2c57c18e-8899-41c4-8d8b-b2a7b1ef0c60)
+![image](https://github.com/DenisVoinescu/Online-Dealership/assets/126812746/b0029933-aaf3-4f6a-af9e-f34bdb43de69)
 
 The user has been inserted into MySQL database: 
 
