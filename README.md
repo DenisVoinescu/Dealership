@@ -7,7 +7,7 @@ The Online Dealership is an application in which an user can create an account, 
 
 This is the home page. Let's create an account!
 
-![page2](https://github.com/DenisVoinescu/Online-Dealership/assets/126812746/64c2ece0-6235-4fee-97b0-13698961f6f5)
+![image](https://github.com/DenisVoinescu/Online-Dealership/assets/126812746/2555523e-51b7-4884-a683-cfcabec9473d)
 
 Great!
 
