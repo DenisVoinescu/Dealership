@@ -144,7 +144,7 @@ Notes:
 - Each time a car is being purchased a new instance of that car is created with the ownerID of the user that bought it, meaning
   many users can own a car with the same attributes, for example another user can buy the same Mercedes and a new instance of that
   car will be created with the same car attributes (price, km count, etc.) but with another ownerID.
-- Trying to create an account with a username/email that already exist will generate an alert and will not be inerted into the database.   
+- Trying to create an account with a username/email that already exist will generate an alert and will not be inserted into the database.   
 - For all the fields that should be entered by user (input) I used RegEx, for example the card number introduced when buying a new car should
   be exactly 16 digits, no other characters and no shorter/longer than 16. Every RegEx was tested using JUnit Testing. 
 
